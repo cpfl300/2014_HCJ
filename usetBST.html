@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Bootstrap grid </title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+<style type="text/css">
+    body{
+    	padding-top: 70px;
+    	min-width: 700px;
+    }
+
+	footer {
+		height: 50px;
+	}
+
+	#side, #content{
+		
+		height: 400px;
+		
+	}
+
+	.inner{
+		padding: 20px;
+		border: 1px dashed gray;
+	}
+
+	.virtical-center{
+		line-height: 400px;
+	}
+
+</style>
+</head>
+
+<body>
+	<!-- nav -->
+	<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"> This is Header </a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- container -->
+	<div class="container">
+		<div class="jumbotron">
+			Jumbotron
+		</div>
+
+		<div class="row">
+			<div id="side" class="col-xs-3">
+				<div class="inner">
+					<h2>여기는 사이드 바 영역입니다.</h2></br></br>
+					test1.</br></br>
+					test2.</br></br>
+					test3.</br></br>
+					test4.</br></br>
+					test5.
+				</div>
+			</div>
+			<div id="content" class="col-xs-9">
+				<div class="inner">
+					<h2>여기는 컨텐츠 영역입니다.</h2>
+					<p>In today's world internet is the most popular way of connecting with the people. At <a href="http://www.tutorialrepublic.com" target="_blank">tutorialrepublic.com</a> you will learn the essential of web development technologies along with real life practice example, so that you can create your own website to connect with the people around the world.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div class="row">
+			<div class="col-xs-12">
+				<footer class="panel-footer text-center navbar-fixed-bottom">
+					<p>Bootstrap Grid</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+</body>
